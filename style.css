@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+   background-color: darkgray;
+   /* add font family later */
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+    padding: 2%;
+    background-color: rgba(255, 127, 80, 0.855);
+    
+}
+
+h1 {
+
+}
