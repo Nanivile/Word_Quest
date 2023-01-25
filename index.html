@@ -8,22 +8,23 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 <body>
-    <div class="container">
+    <div class="wrapper">
         <h1>Word Quest</h1>
         <button>Lets Start</button>
-        <div class="containAll">
-            <div class="pointContainer">
-                <p>Your Points</p>
-                <span class="points">0</span>
-            </div>
-            <div class="timerContainer">
-                <p>Timer</p>
-                <span class="timer">60</span>
+        <div class="content">
+            <input type="text" class="typing-input" maxlenght="1" />
+            <div class="inputs"></div>
+            <div class="details">
+                <p class="hint">Hint: <span>Hint shows here</span></p>
+                <p class="guess-left">Guesses Remaining: <span> </span></p>
+                <p class="incorrect letter">Incorrect Letters: <span> </span></p>
             </div>
         </div>
-        <div class="textContainer">
-            <p class="text"></p>
+        <div class="text-center">
+            <button class="reset-btn">Restart Game</button>
         </div>
     </div>
+
+    
 </body>
 </html>
