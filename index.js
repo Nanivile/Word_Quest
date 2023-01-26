@@ -19,13 +19,13 @@ const inputs=document.querySelector(".inputs"),
 hintTag=document.querySelector(".hint span"),
 guessLeft=document.querySelector(".guess-left span"),
 wrongLetter=document.querySelector(".wrong-letter span"),
-resetBtn=document.querySelector(".reset-btn")
-typingInput=document.querySelector(".typing-input");
+resetBtn=document.querySelector(".reset-btn"),
+typingInput=document.querySelector(".typing-input")
 
 let word,maxGuesses,incorrectLetters=[],correctLetters=[];
 
 function randomWord() {
-    let randItem=wordList[Math.floor(Math.random()* wordList.length)];
+    let randItem=wordList[Math.floor(Math.random())* wordList.length];
     word=randItem.word;
     hintTag.innerText=randItem.hint;
     maxGuesses=word.length>=5 ? 8 : 6;
@@ -46,7 +46,7 @@ function initGame(e) {
     let key=e.target.value.toLowerCase();
     if(key.match(/^[A-Za-z]+$/) && ! incorrectLetters.includes(`${key}`) && ! correctLetters.includes(key)) {
         if(word.includes(key)) {
-            for(let i = 0; 1 < word.lenght; i++) {
+            for(let i = 0; i < word.length; i++) {
                 if(word [i] === key) {
                     correctLetters += key;
                     inputs.querySelectorAll("input")[i].value=key;
@@ -62,7 +62,7 @@ function initGame(e) {
     }
     typingInput.value="";
     setTimeout(() => {
-        if (correctLetters.lenght === word.legnth) {
+        if (correctLetters.length === word.length) {
             alert(`Great job! You got it right ${word.toUpperCase()}`);
             return randomWord();
         
