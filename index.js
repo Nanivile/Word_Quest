@@ -26,7 +26,8 @@ let word,maxGuesses,incorrectLetters=[],correctLetters=[];
 
 function randomWord() {
     let randItem=wordList[Math.floor(Math.random()* wordList.length)];
-    word=randItem.word
+    word=randItem.word;
+    hintTag.innerText=randItem.hint;
     maxGuesses=word.length>=5 ? 8 : 6;
     correctLetters=[];
     incorrectLetters=[];
@@ -42,13 +43,13 @@ function randomWord() {
 randomWord();
 
 function initGame(e) {
-    let key=e.target.vale.toLowerCase();
+    let key=e.target.value.toLowerCase();
     if(key.match(/^[A-Za-z]+$/) && ! incorrectLetters.includes(`${key}`) && ! correctLetters.includes(key)) {
         if(word.includes(key)) {
             for(let i = 0; 1 < word.lenght; i++) {
-                if(word [i] == key) {
+                if(word [i] === key) {
                     correctLetters += key;
-                    inputs.querySelectorAll("inut")[i].value=key;
+                    inputs.querySelectorAll("input")[i].value=key;
                 }
             }
         }
