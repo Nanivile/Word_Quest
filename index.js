@@ -11,7 +11,24 @@ const wordList = [
     {
         word: "toes",
         hint: "head, shoulders, knees, and ...."
+    },
+    {
+        word: "bee",
+        hint: "polinates flowers"
+    },
+    {
+        word: "chair",
+        hint: "you use it to sit"
+    },
+    {
+        word: "island",
+        hint: "land surrounded by water"
+    },
+    {
+        word: "github",
+        hint: "code hosting platform"
     }
+
     
 ]
 // console.log(wordList)
@@ -25,7 +42,7 @@ typingInput=document.querySelector(".typing-input")
 let word,maxGuesses,incorrectLetters=[],correctLetters=[];
 
 function randomWord() {
-    let randItem=wordList[Math.floor(Math.random())* wordList.length];
+    let randItem=wordList[Math.floor(Math.random()* wordList.length)];
     word=randItem.word;
     hintTag.innerText=randItem.hint;
     maxGuesses=word.length>=5 ? 8 : 6;
