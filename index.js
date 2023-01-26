@@ -58,7 +58,11 @@ function initGame(e) {
         wrongLetter.innerText=incorrectLetters;
     }
     typingInput.value="";
-
+    setTimeout(() => {
+        if (correctLetters.lenght == word.legnt) {
+            alert(`Great job! You got it right${word.toUpperCase()}`)
+        }
+    })
 }
 
 //set up event listener for input//
