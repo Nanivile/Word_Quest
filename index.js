@@ -1,8 +1,8 @@
 
 const wordList = [
     {
-        word: "football",
-        hint: "it is called soccer in other countries"
+        word: "shoe",
+        hint: "you wear it over your socks"
     },
     {
         word: "spatula",
@@ -20,11 +20,13 @@ hintTag=document.querySelector(".hint span"),
 guessLeft=document.querySelector(".guess-left span"),
 wrongLetter=document.querySelector(".wrong-letter span"),
 resetBtn=document.querySelector(".reset-btn")
+typingInput=document.querySelector(".typing-input");
 
 let word,maxGuesses,incorrectLetters=[],correctLetters=[];
 
 function randomWord() {
-    let randItem=wordList[Math.floor(Math.random)* wordList.length];
+    let randItem=wordList[Math.floor(Math.random()* wordList.length)];
+    word=randItem.word
     maxGuesses=word.length>=5 ? 8 : 6;
     correctLetters=[];
     incorrectLetters=[];
@@ -72,8 +74,13 @@ function initGame(e) {
                 }
             }
         }
-    })
+    },100);
 }
+
+resetBtn.addEventListener("click",randomWord);
+typingInput.addEventListener("input",initGame);
+inputs.addEventListener("click",()=>typingInput.focus());
+document.addEventListener("keydown",()=>typingInput.focus());
 
 //set up event listener for input//
 //use e.target.value//
