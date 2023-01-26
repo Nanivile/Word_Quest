@@ -62,15 +62,15 @@ function initGame(e) {
     }
     typingInput.value="";
     setTimeout(() => {
-        if (correctLetters.lenght == word.legnt) {
-            alert(`Great job! You got it right${word.toUpperCase()}`);
+        if (correctLetters.lenght === word.legnth) {
+            alert(`Great job! You got it right ${word.toUpperCase()}`);
             return randomWord();
         
         }
         else{
             if(maxGuesses < 1) {
                 alert("Oh no! Out of Guesses, try again");
-                for(let i = 0; i < word.lenght; i++) {
+                for(let i = 0; i < word.length; i++) {
                     inputs.querySelectorAll("input")[i].value=word[i];
                 }
             }
