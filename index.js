@@ -26,7 +26,39 @@ const wordList = [
     },
     {
         word: "github",
-        hint: "code hosting platform"
+        hint: "a code hosting platform"
+    },
+    {
+        word: "html",
+        hint: "markup language for the web"
+    },
+    {
+        word: "vapor",
+        hint: "the gas state of water"
+    },{
+        word: "array",
+        hint: "a list of values in JS"
+    },{
+        word: "burrito",
+        hint: "a taco but bigger and in a wrap"
+    },{
+        word: "dog",
+        hint: "a mans best friend"
+    },{
+        word: "venus",
+        hint: "a planet in our solar system"
+    },{
+        word: "avatar",
+        hint: "the last air bender"
+    },{
+        word: "endgame",
+        hint: "the best avenger movie"
+    },{
+        word: "shrek",
+        hint: "dream works movie with a donkey"
+    },{
+        word: "piano",
+        hint: "instrument with keys"
     }
 
     
