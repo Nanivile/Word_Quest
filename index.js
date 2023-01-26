@@ -60,7 +60,17 @@ function initGame(e) {
     typingInput.value="";
     setTimeout(() => {
         if (correctLetters.lenght == word.legnt) {
-            alert(`Great job! You got it right${word.toUpperCase()}`)
+            alert(`Great job! You got it right${word.toUpperCase()}`);
+            return randomWord();
+        
+        }
+        else{
+            if(maxGuesses < 1) {
+                alert("Oh no! Out of Guesses, try again");
+                for(let i = 0; i < word.lenght; i++) {
+                    inputs.querySelectorAll("input")[i].value=word[i];
+                }
+            }
         }
     })
 }
