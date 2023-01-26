@@ -57,8 +57,10 @@ function initGame(e) {
         guessLeft.innerText=maxGuesses;
         wrongLetter.innerText=incorrectLetters;
     }
-    typingInput.value
+    typingInput.value="";
+
 }
+
 //set up event listener for input//
 //use e.target.value//
 
