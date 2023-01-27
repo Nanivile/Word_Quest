@@ -31,11 +31,15 @@
 ***
 
 ## ***Future Updates***
-#### Will be provided when aquired
+#### Add difficulty and differnt levels
+#### Add a point system
+#### Add background music 
 ***
 
 ### ***Credits***
 ##### Markdown Guide: [ia.net](https://ia.net/writer/support/general/markdown-guide)
-##### Images: [Google](https://play-lh.googleusercontent.com/Wsxx7JiXX-PTlqy2UIxr9efEMyiH6qwHGA1ZYgTgV8oGWdwJLjUr5zU2B9HiK664JKs)
+##### Images: 
+* [Google](https://play-lh.googleusercontent.com/Wsxx7JiXX-PTlqy2UIxr9efEMyiH6qwHGA1ZYgTgV8oGWdwJLjUr5zU2B9HiK664JKs)
+* [Imgru](https://i.imgur.com/ZjZ8khC.png)
 ##### Markdown Cheatsheet: [GitHub](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 ##### Tack Management: [Trello](https://trello.com/b/V79aqrzr/project-1)
