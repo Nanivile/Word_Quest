@@ -27,7 +27,7 @@
 ***
 
 ## ***Screenshots***
-#### Will be provided when aquired
+![Word Quest Picture](https://imgur.com/gallery/b1kKFqG)
 ***
 
 ## ***Future Updates***
