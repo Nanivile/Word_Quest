@@ -23,7 +23,7 @@
 * Be deployed on Surge
 
 #### A Trello board was used to keep track of development progress and can be viewed [here](https://trello.com/b/V79aqrzr/project-1).
-#### The project itself was deployed and can be viewed [https://ultimat-word-quest.surge.sh/].
+#### The project itself was deployed and can be viewed [here](https://ultimat-word-quest.surge.sh/).
 ***
 
 ## ***Screenshots***
