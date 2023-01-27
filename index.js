@@ -5,16 +5,16 @@ const wordList = [
         hint: "you wear it over your socks"
     },
     {
-        word: "spatula",
-        hint: "spongebob uses this item to cook"
+        word: "clarinet",
+        hint: "squidwards musical instrument of choice"
     },
     {
         word: "toes",
         hint: "head, shoulders, knees, and ...."
     },
     {
-        word: "bee",
-        hint: "polinates flowers"
+        word: "spider",
+        hint: "insect that wraps its pray like a burrito"
     },
     {
         word: "chair",
@@ -37,12 +37,12 @@ const wordList = [
         hint: "the gas state of water"
     },
     {
-        word: "array",
-        hint: "a list of values in JS"
+        word: "computer",
+        hint: "a bigger version of a laptop"
     },
     {
-        word: "burrito",
-        hint: "a taco but bigger and in a wrap"
+        word: "bride",
+        hint: "a woman getting married"
     },
     {
         word: "dog",
@@ -53,12 +53,12 @@ const wordList = [
         hint: "a planet in our solar system"
     },
     {
-        word: "avatar",
-        hint: "the last air bender"
+        word: "toph",
+        hint: "she taught the avatar to earth bend"
     },
     {
-        word: "endgame",
-        hint: "the best avenger movie"
+        word: "thanos",
+        hint: "the antagonist of End Game"
     },
     {
         word: "shrek",
@@ -67,11 +67,59 @@ const wordList = [
     {
         word: "piano",
         hint: "instrument with keys"
+    },
+    {
+        word: "calm",
+        hint: "oposite of angry"
+    },
+    {
+        word: "becon",
+        hint: "delicious treat made from pigs"
+    },
+    {
+        word: "movie",
+        hint: "a cinematic film"
+    },
+    {
+        word: "twin",
+        hint: "two people who look alike"
+    },
+    {
+        word: "timber",
+        hint: "wood used for building"
+    },
+    {
+        word: "healthy",
+        hint: "physicaly and mentally"
+    },
+    {
+        word: "gravity",
+        hint: "the force that pull us down"
+    },
+    {
+        word: "herb",
+        hint: "another word for weed"
+    },
+    {
+        word: "piano",
+        hint: "instrument with keys"
+    },
+    {
+        word: "novel",
+        hint: "peple read this in their past time"
+    },
+    {
+        word: "confuse",
+        hint: "your lost"
+    },
+    {
+        word: "truck",
+        hint: "ford f-150 "
     }
 
     
 ]
-// console.log(wordList)
+
 const inputs=document.querySelector(".inputs"),
 hintTag=document.querySelector(".hint span"),
 guessLeft=document.querySelector(".guess-left span"),
@@ -140,8 +188,7 @@ typingInput.addEventListener("input",initGame);
 inputs.addEventListener("click",()=>typingInput.focus());
 document.addEventListener("keydown",()=>typingInput.focus());
 
-//set up event listener for input//
-//use e.target.value//
+
 
 
 
