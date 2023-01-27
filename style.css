@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: rgb(228, 158, 30);
+    line-height: 5;
+}
+
+#instructions{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: rgb(245, 242, 242);
+    line-height: 1.3;
+}
+
+
+#showcase{
+    background-image: url('./img/mountain.jpg');
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase .button{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(40, 16, 177);
+    border: rgb(40, 16, 177) 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+#showcase .button:hover{
+    background: rgb(40, 16, 177);
+    color:white
+}
