@@ -5,7 +5,7 @@
 ### |[Linkenin](https://www.linkedin.com/in/ifeanyi-njoku-4a6888188/) | [Github](https://github.com/Nanivile)
 ***
 ## ***Description***
-#### In word quest you will be given one minute to correctly type in words that pop up on the screen. If you enter the correct letter for the word it will light up green but if you enter an incorrect letter it will show red and you will loose seconds from your time. You will earn fifty points for each word you spell correctly.
+#### In word quest you will be given one minute to correctly type in words that pop up on the screen. If you enter the correct letter for the word it will light up green but if you enter an incorrect letter it will show red and you will loose seconds from your time. You will earn fifty points for each word you spell correctly..
 ***
 
 ## ***Technologies***
