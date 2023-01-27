@@ -73,7 +73,7 @@ const wordList = [
         hint: "opposite of anxious"
     },
     {
-        word: "becon",
+        word: "bacon",
         hint: "Delicious treat made from pigs"
     },
     {
