@@ -2,119 +2,119 @@
 const wordList = [
     {
         word: "shoe",
-        hint: "you wear it over your socks"
+        hint: "You wear it over your socks"
     },
     {
         word: "clarinet",
-        hint: "squidwards musical instrument of choice"
+        hint: "Squidwards musical instrument of choice"
     },
     {
         word: "toes",
-        hint: "head, shoulders, knees, and ...."
+        hint: "Head, shoulders, knees, and ...."
     },
     {
         word: "spider",
-        hint: "insect that wraps its pray like a burrito"
+        hint: "Insect that wraps its pray like a burrito"
     },
     {
         word: "chair",
-        hint: "you use it to sit"
+        hint: "You use it to sit"
     },
     {
         word: "island",
-        hint: "land surrounded by water"
+        hint: "Land surrounded by water"
     },
     {
         word: "github",
-        hint: "a code hosting platform"
+        hint: "A code hosting platform"
     },
     {
         word: "html",
-        hint: "markup language for the web"
+        hint: "Markup language for the web"
     },
     {
         word: "vapor",
-        hint: "the gas state of water"
+        hint: "The gas state of water"
     },
     {
         word: "computer",
-        hint: "a bigger version of a laptop"
+        hint: "A bigger version of a laptop"
     },
     {
         word: "bride",
-        hint: "a woman getting married"
+        hint: "A woman getting married"
     },
     {
         word: "dog",
-        hint: "a mans best friend"
+        hint: "A mans best friend"
     },
     {
         word: "venus",
-        hint: "a planet in our solar system"
+        hint: "A planet in our solar system"
     },
     {
         word: "toph",
-        hint: "she taught the avatar to earth bend"
+        hint: "She taught the avatar to earth bend"
     },
     {
         word: "thanos",
-        hint: "the antagonist of End Game"
+        hint: "The antagonist of End Game"
     },
     {
         word: "shrek",
-        hint: "dream works movie with a donkey"
+        hint: "Dream works movie with a donkey"
     },
     {
         word: "piano",
-        hint: "instrument with keys"
+        hint: "Instrument with keys"
     },
     {
         word: "calm",
-        hint: "oposite of angry"
+        hint: "opposite of anxious"
     },
     {
         word: "becon",
-        hint: "delicious treat made from pigs"
+        hint: "Delicious treat made from pigs"
     },
     {
         word: "movie",
-        hint: "a cinematic film"
+        hint: "A cinematic film"
     },
     {
         word: "twin",
-        hint: "two people who look alike"
+        hint: "Two people who look alike"
     },
     {
         word: "timber",
-        hint: "wood used for building"
+        hint: "Wood used for building"
     },
     {
         word: "healthy",
-        hint: "physicaly and mentally"
+        hint: "Physicaly and mentally"
     },
     {
         word: "gravity",
-        hint: "the force that pull us down"
+        hint: "The force that pull us down"
     },
     {
         word: "herb",
-        hint: "another word for weed"
+        hint: "Another word for weed"
     },
     {
         word: "piano",
-        hint: "instrument with keys"
+        hint: "Instrument with keys"
     },
     {
         word: "novel",
-        hint: "peple read this in their past time"
+        hint: "People read this in their past time"
     },
     {
         word: "confuse",
-        hint: "your lost"
+        hint: "Your lost"
     },
     {
         word: "truck",
-        hint: "ford f-150 "
+        hint: "Ford f-150 "
     }
 
     

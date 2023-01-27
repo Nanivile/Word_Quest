@@ -15,7 +15,9 @@
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
-    color: rgb(245, 242, 242);
+    color: #58282d;
+    background-color: #cdb1ad;
+
     line-height: 1.3;
 }
 
@@ -36,7 +38,7 @@
 #showcase .button{
     font-size: 30px;
     text-decoration: none;
-    color: rgb(40, 16, 177);
+    color: #291523;
     border: rgb(40, 16, 177) 1px solid;
     padding: 10px 20px;
     border-radius: 10px;
@@ -45,6 +47,6 @@
 }
 
 #showcase .button:hover{
-    background: rgb(40, 16, 177);
+    background: #bf7341;
     color:rgb(0, 0, 0)
 }
